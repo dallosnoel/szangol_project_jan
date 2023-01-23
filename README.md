@@ -1,0 +1,1 @@
+# szangol_project_jan
