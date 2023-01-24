@@ -34,15 +34,14 @@ ul li a {
 
 ul li span {
     position: absolute;
-    width: 120%;
+    width: 103%;
     height: 100%;
     background-color: var(--c);
     transform: translateY(150%);
     border-radius: 50%;
     left: calc((var(--n) - 1) * 25%);
-    transition: 0.5s;
+    transition: 0.2s;
     transition-delay: calc((var(--n) - 1) * 0.1s);
-    x-index: -1;
 }
 
 ul li a:hover {
@@ -50,11 +49,11 @@ ul li a:hover {
 }
 
 ul li a:hover span {
-    transform: translateY(0) scale(2);
+    transform: translateY(0) scale(1.5);
 }
 
 ul li a span:nth-child(1) {
-    --n: 0;
+    --n: 1;
 }
 
 ul li a span:nth-child(2) {
@@ -72,6 +71,15 @@ h1 {
 }
 
 
+.image {
+    margin-left: 33%;
+}
+
+img {
+    border: 5px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
 
 
 
